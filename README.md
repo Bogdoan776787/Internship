@@ -1,4 +1,7 @@
+## Installation 
+to install all dependencies: npm install
 
+to run nextjs app : npm run dev
 
 
 ## Preview

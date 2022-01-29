@@ -1,6 +1,8 @@
-# Next.js + Tailwind CSS Example
+## Installation 
+to install all dependencies: npm install
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+to run nextjs app : npm run dev
+
 
 ## Preview
 

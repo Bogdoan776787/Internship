@@ -1,18 +1,21 @@
-import React from 'react'
+/* This example requires Tailwind CSS v2.0+ */
 import { InboxIcon, SparklesIcon } from '@heroicons/react/outline'
-const Features = () => {
-    return (
-        <div className="relative bg-white pt-16 pb-32 overflow-hidden">
+
+export default function Example() {
+  return (
+    <div className="relative bg-white pt-16 pb-32 overflow-hidden">
       <div className="relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div>
-               
+                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+                  <InboxIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                </span>
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                 Lorem ipsum lorem ipsum
+                  Stay on top of customer support
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
                   Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
@@ -22,9 +25,9 @@ const Features = () => {
                 <div className="mt-6">
                   <a
                     href="#"
-                    className='transition duration-500 transform hover:-translate-y-1 inline-block bg-indigo-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer'
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Go to project
+                    Get started
                   </a>
                 </div>
               </div>
@@ -37,7 +40,18 @@ const Features = () => {
                     donec aliquet. Mi venenatis in euismod ut.&rdquo;
                   </p>
                 </div>
-              
+                <footer className="mt-3">
+                  <div className="flex items-center space-x-3">
+                    <div className="flex-shrink-0">
+                      <img
+                        className="h-6 w-6 rounded-full"
+                        src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <div className="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
+                  </div>
+                </footer>
               </blockquote>
             </div>
           </div>
@@ -45,7 +59,7 @@ const Features = () => {
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJvYm90aWNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
                 alt="Inbox user interface"
               />
             </div>
@@ -56,7 +70,11 @@ const Features = () => {
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
-           
+              <div>
+                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+                  <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                </span>
+              </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   Better understand your customers
@@ -69,7 +87,7 @@ const Features = () => {
                 <div className="mt-6">
                   <a
                     href="#"
-                    className='transition duration-500 transform hover:-translate-y-1 inline-block bg-indigo-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer'
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Get started
                   </a>
@@ -81,7 +99,7 @@ const Features = () => {
             <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJvYm90aWNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"                
+                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
                 alt="Customer profile user interface"
               />
             </div>
@@ -89,7 +107,5 @@ const Features = () => {
         </div>
       </div>
     </div>
-    )
+  )
 }
-
-export default Features

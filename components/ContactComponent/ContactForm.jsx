@@ -118,7 +118,7 @@ const ContactForm = () => {
                   <div>
                     <button
                       type="submit"
-                      className="  inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      className='transition duration-500 transform hover:-translate-y-1 inline-block bg-indigo-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer'
                     >
                       Let's talk
                     </button>

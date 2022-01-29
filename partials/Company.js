@@ -1,16 +1,15 @@
-import React from 'react'
-
-
-
+import React from "react";
+/* This example requires Tailwind CSS v2.0+ */
 const stats = [
     { label: 'Founded', value: '2021' },
     { label: 'Employees', value: '5' },
     { label: 'Company partners', value: '4' },
     { label: 'Raised', value: 'Dkk 25M' },
   ]
-const Company = () => {
+  
+  export default function Company() {
     return (
-        <div className="relative bg-white py-16 sm:py-24" id="company">
+      <div className="relative bg-white py-16 sm:py-24" id="company">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
           <div className="relative sm:py-16 lg:py-0">
             <div aria-hidden="true" className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
@@ -38,13 +37,13 @@ const Company = () => {
               </svg>
             </div>
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
-         
+              {/* Testimonial card*/}
               <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
-                {/* <img
+                <img
                   className="absolute inset-0 h-full w-full object-cover"
-                  src={require('https://images.unsplash.com/photo-1642371556669-2a12e345295d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60').default}
+                  src={require('../images/SaraLopez.jpg').default}
                   alt=""
-                /> */}
+                />
                 <div className="absolute inset-0 bg-indigo-500 mix-blend-multiply" />
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-60" />
                 <div className="relative px-8">
@@ -113,7 +112,7 @@ const Company = () => {
                 ))}
               </dl>
               <div className="mt-10">
-                <a href="/company" className="text-base font-medium text-indigo-600">
+                <a href="/Company" className="text-base font-medium text-indigo-600">
                   {' '}
                   Learn more about the company <span aria-hidden="true">&rarr;</span>{' '}
                 </a>
@@ -123,6 +122,5 @@ const Company = () => {
         </div>
       </div>
     )
-}
-
-export default Company
+  }
+  

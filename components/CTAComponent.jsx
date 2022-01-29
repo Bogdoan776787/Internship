@@ -9,10 +9,10 @@ const CTAComponent = () => {
             <span className="block text-indigo-600">You can write us an email.</span>
           </h2>
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-            <div className="inline-flex rounded-md shadow">
+            <div className="">
               <a
-                href="/Contact"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+                href="/contact"
+                className='animate-bounce transition duration-500 transform hover:-translate-y-1 inline-block bg-indigo-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer'
               >
                 Let's do it
               </a>

@@ -61,3 +61,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+[data-aos="zoom-y-out"] {
+  transform: scaleX(1.03);
+  opacity: 0;
+  transition-property: transform, opacity;
+}

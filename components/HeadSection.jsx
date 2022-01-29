@@ -1,5 +1,5 @@
 import React from 'react'
-import { ChevronRightIcon, StarIcon } from '@heroicons/react/solid'
+
 export const HeadSection = () => {
   
 
@@ -11,10 +11,10 @@ export const HeadSection = () => {
           <div className="mt-0">
             
             <div className="mt-6 sm:max-w-xl">
-              <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
+              <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl " >
                 Some Beautiful Words
               </h1>
-              <p className="mt-6 text-xl text-gray-500">
+              <p className="mt-6 text-xl text-gray-500"  >
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
               </p>
             </div>
@@ -26,14 +26,14 @@ export const HeadSection = () => {
                 <input
                   id="hero-email"
                   type="email"
-                  className="block w-full border border-gray-300 rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-rose-500 focus:ring-rose-500"
+                  className="block w-full border border-gray-300 rounded-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                   placeholder="Enter your email"
                 />
               </div>
               <div className="mt-4 sm:mt-0 sm:ml-3">
                 <button
                   type="submit"
-                  className="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-500 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10"
+                  className='transition duration-500 transform hover:-translate-y-1 inline-block bg-indigo-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer'
                 >
                   Notify me
                 </button>

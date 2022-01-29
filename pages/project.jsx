@@ -1,10 +1,11 @@
 import React from 'react'
-import {HeadProject,ContactForm} from '../components/'
+import {HeadProject,ProjectFeature,TechnicalFeature} from '../components/'
 const Project = () => {
     return (
         <div>
             <HeadProject/>
-           <ContactForm/>
+            <ProjectFeature/>
+            <TechnicalFeature/>
         </div>
     )
 }

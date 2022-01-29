@@ -21,3 +21,8 @@ export {default as CompanyFeatures} from './CompanyComponents/CompanyFeatures';
 export {default as HeadProject} from './ProjectComponent/HeadProject';
 export {default as HeadContact} from './ContactComponent/HeadContact';
 export {default as ContactForm} from './ContactComponent/ContactForm';
+
+export {default as Loader} from './Loader';
+export {default as FeaturedPostCard} from './FeaturedPostCard';
+export {default as ProjectFeature} from './ProjectComponent/ProjectFeature';
+export {default as TechnicalFeature} from './ProjectComponent/TechnicalFeature';
